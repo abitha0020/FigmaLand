@@ -1,4 +1,4 @@
-import Featuresimage from "./Features.png";
+import Featuresimage from "./images/Features.png";
 import sourceoftruth from "./images/sourceoftruth.png"
 function Features(){
     return(
