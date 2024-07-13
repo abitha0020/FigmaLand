@@ -1,4 +1,4 @@
-import Dashboard from "./Dashboard.png"
+import Dashboard from "./images/Dashboard.png"
 export default function Homeintro(){
     return(
         <div>
