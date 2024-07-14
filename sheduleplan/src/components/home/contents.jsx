@@ -1,5 +1,3 @@
-import work from"./images/work.png";
-import boards from "./images/BoardsNotifications.png";
 export default function Contents(){
     return(
         <div >
@@ -20,7 +18,7 @@ export default function Contents(){
                     <div className="mx-auto w-[150px] h-[55px]">
                         <button className=" w-[150px] h-[55px] bg-[#4452FE] text-white font-medium text-base tracking-[0.2px]">Sign Up</button>
                     </div>
-                    <img src={work} alt="work" />
+                    <img src="src/assets/work.png" alt="work" />
                 </div>
                 <div className="px-10 pt-10 w-[475px] h-[625px] rounded-[10px] flex flex-col justify-between bg-white ">
                     <div>
@@ -32,7 +30,7 @@ export default function Contents(){
                     <div className="mx-auto w-[150px] h-[55px]">
                         <button className=" w-[150px] h-[55px] bg-[#4452FE] text-white font-medium text-base tracking-[0.2px]">Try For Free</button>
                     </div>
-                    <img src={boards} alt="boards" />
+                    <img src="src/assets/BoardsNotifications.png" alt="boards" />
                 </div>
             </div>
         </div>
