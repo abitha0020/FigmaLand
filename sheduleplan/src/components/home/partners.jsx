@@ -1,12 +1,10 @@
+import Title from "./title";
 export default function Partners(){
     return(
         <div>
-            <div className="container py-5 mt-20">
-                <h2 className="text-white text-center font-normal text-[52px] leading-[62px] tracking-[0.2px]">Partners</h2>
-            </div>
-            <div className="w-[600px] pt-5 h-[80px] mx-auto px-5 text-center text-white font-normal text-xl tracking-[0.2px]">
-                <h3>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</h3>
-            </div>
+            <Title 
+              title="Partners"
+              subtitle="We focus on ergonomics and meeting you where you work. It's only a keystroke away."/>
             <div className="mx-auto mt-20 w-[840px] h-[70px] flex place-content-between">
                 <img src="src/assets/logos_apple-app-store.png" alt="APPLE APP STORE" />
                 <img src="src/assets/logos_apiary.png" alt="APIARY" />
