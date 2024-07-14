@@ -41,7 +41,7 @@ export default function Testimonials(){
                         description="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
                     /> 
                     <Testimonial
-                        photo="src/assets/claire.png"
+                        photo="src/assets/Jorge.png"
                         name="Jorge Murphy"
                         designation="Designer"
                         description="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
