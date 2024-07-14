@@ -6,6 +6,7 @@ import Contents from "../components/home/contents";
 import Gallery from "../components/home/gallery";
 import Partners from "../components/home/partners";
 import Testimonials from "../components/home/testimonials";
+import Freetrial from "../components/home/freetrial";
 export default function Home(){
     return(
         <div className="bg-black">
@@ -19,6 +20,7 @@ export default function Home(){
                 <Gallery />
                 <Partners />
                 <Testimonials />
+                <Freetrial />
             </div>
         </div>
     );
