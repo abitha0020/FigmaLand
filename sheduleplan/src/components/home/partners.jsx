@@ -1,9 +1,3 @@
-import appleappstore from "./images/logos_apple-app-store.png";
-import apiary from "./images/logos_apiary.png";
-import android from "./images/logos_android-icon.png";
-import basecamp from "./images/logos_basecamp.png";
-import airbnb from "./images/logos_airbnb.png";
-import ibm from "./images/logos_ibm.png";
 export default function Partners(){
     return(
         <div>
@@ -14,12 +8,12 @@ export default function Partners(){
                 <h3>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</h3>
             </div>
             <div className="mx-auto mt-20 w-[840px] h-[70px] flex place-content-between">
-                <img src={appleappstore} alt="APPLE APP STORE" />
-                <img src={apiary} alt="APIARY" />
-                <img src={android} alt="ANDROID" />
-                <img src={basecamp} alt="BASECAMP" />
-                <img src={airbnb} alt="AIRBNB" />
-                <img src={ibm} alt="IBM" />
+                <img src="src/assets/logos_apple-app-store.png" alt="APPLE APP STORE" />
+                <img src="src/assets/logos_apiary.png" alt="APIARY" />
+                <img src="src/assets/logos_android-icon.png" alt="ANDROID" />
+                <img src="src/assets/logos_basecamp.png" alt="BASECAMP" />
+                <img src="src/assets/logos_airbnb.png" alt="AIRBNB" />
+                <img src="src/assets/logos_ibm.png" alt="IBM" />
             </div>
             <div className="mt-20 mx-auto w-[160px] h-[52px]">
                 <button className="w-[160px] h-[52px] border border-white text-white font-medium text-base tracking-[0.2px] ">All Partners</button>
