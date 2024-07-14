@@ -1,4 +1,3 @@
-import Dashboard from "./images/Dashboard.png"
 export default function Homeintro(){
     return(
         <div>
@@ -13,7 +12,7 @@ export default function Homeintro(){
                 <button className="h-[65px] w-[180px] border border-white text-white text-white">Learn More</button>
             </div>
             <div className="pt-20">
-                <img src={Dashboard} alt="dashboard" />
+                <img src="src/assets/Dashboard.png" alt="dashboard" />
             </div>    
         </div>    
     );
