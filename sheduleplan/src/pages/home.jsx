@@ -4,6 +4,7 @@ import Homeintro from "../components/home/home-intro";
 import Features from "../components/home/features";
 import Contents from "../components/home/contents";
 import Gallery from "../components/home/gallery";
+import Partners from "../components/home/partners";
 export default function Home(){
     return(
         <div className="bg-black">
@@ -15,6 +16,7 @@ export default function Home(){
                 <Features />
                 <Contents />
                 <Gallery />
+                <Partners />
             </div>
         </div>
     );
