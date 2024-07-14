@@ -6,10 +6,14 @@ import Contents from "../components/home/contents";
 export default function Home(){
     return(
         <div className="bg-black">
-            <Navbar />
-            <Homeintro/>   
-            <Features />
-            <Contents />
+            <div className="bg-black">
+                <Navbar />
+                <Homeintro/>   
+            </div>
+            <div className="bg-[#181818]">   
+                <Features />
+                <Contents />
+            </div>
         </div>
     );
     
