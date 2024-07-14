@@ -21,6 +21,9 @@ export default function Partners(){
                 <img src={airbnb} alt="AIRBNB" />
                 <img src={ibm} alt="IBM" />
             </div>
+            <div className="mt-20 mx-auto w-[160px] h-[52px]">
+                <button className="w-[160px] h-[52px] border border-white text-white font-medium text-base tracking-[0.2px] ">All Partners</button>
+            </div>
         </div>
     );
 }
